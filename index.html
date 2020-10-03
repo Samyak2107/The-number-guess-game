@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>The number guess game | Fun mini game</title>
+    <meta charset="UTF-8">
+    <meta name="description" content="A fun web game where you the system picks a random number between 1 to 100 and you have to guess it . You get a few hints on every guess you make . Try it out now!">
+    <meta name="keywords" content="the number guess game, thenumberguessgame, guess a number game, guess numbers, guess number, guess, numbers, number guess, number mini game, number game, guess the number game, number guessing game">
+    <meta name="author" content="Samyak Panchbhai">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <script src="script.js"></script>
+</head>
+<body class="text-center">
+    <nav class="navbar navbar-dark bg-dark">
+        <!-- Navbar content -->
+        <a class="navbar-brand" href="#">Guess The Number</a>
+    </nav>
+    <main>
+        <h1 class="banner p-3">1.2.3...100 can you guess !?</h1>
+        <div class="form-group ">
+            <input id="number-guess" class="form-control form-control-lg" type="number" placeholder="What's your guess?">
+        </div>
+        <div id="result">
+            <!-- This is where the result will be-->
+        </div>
+        <button type="button" id="number-submit" class="btn btn-lg btn-secondary">Check Me</button>
+        <button type="button" id="restart-game" class="btn btn-lg btn-light">Restart</button>
+        <div id="history">
+            <!-- This is where the guess history will be-->
+        </div>
+    </main>
+
+</body>
+</html>
